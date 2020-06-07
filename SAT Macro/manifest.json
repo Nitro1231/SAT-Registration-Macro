@@ -1,0 +1,13 @@
+{
+    "name": "SAT Macro",
+    "description" : "Basic macro that will refresh your chrome tab every 5 seconds while the webpage has texts either \"Unavailable\" or \"Denied\". It will automatically stop refreshing the tab when both words \"Unavailable\" and \"Denied\" are no longer exist in the page. To run this macro, you should keep the popup page, which will show up when you click the extension icon.",
+    "version": "1.0",
+    "manifest_version": 2,
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+    },
+    "permissions":[
+        "activeTab"
+    ]
+}
